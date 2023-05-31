@@ -1,5 +1,7 @@
 # Exchange Matching Engine
 
+This program was made alongside Marek Pinto as part of our assignment for CS3211 (Parallel and Concurrent Programming) at the National University of Singapore during the Spring 2023 semester. For a more in-depth explanation of our project, please see the attached pdf.
+
 This C++ program uses techniques of concurrent programming to efficiently match buy and sell orders for a stock exchange. As active orders are placed, they will 
 be compared to all resting orders to find a potential match. If there is no match, the active order is placed into a resting order book and can be matched at any point
 in the future. The engine matches orders using the price-time priority rule. This rule for matching two orders on an exchange is expressed using the following conditions – which must all be true for the matching to happen:
